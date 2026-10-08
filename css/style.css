@@ -193,7 +193,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50rem;
+  gap: 30rem;
   background-color: hsla(202, 11%, 66%, 0.163);
   height: 15rem;
 }
@@ -223,4 +223,61 @@ h3 {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+}
+
+@media (max-width: 780px) {
+  html{
+    font-size: 50%;
+  }
+
+  .main{
+   padding: 3rem;
+  }
+
+  .button{
+    flex-direction: column;
+  }
+
+  .btn{
+      padding: 1em 5em;
+  }
+
+  .snip_dos{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .snip{
+    text-align: center;
+  }
+
+  .snip_img{
+    width: 30rem;
+  }
+
+  .acc_img{
+    width: 40rem;
+  }
+
+  .sup_div{
+    flex-direction: column;
+  }
+
+  .reference{
+    flex-direction: column;
+    gap: 10rem;
+  }
+
+  .footer{
+    height: unset;
+    flex-direction: column;
+    gap: 10rem;
+    padding: 2em 2em;
+  }
+
+  .footer_links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
